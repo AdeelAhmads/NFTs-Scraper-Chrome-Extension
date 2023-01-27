@@ -1,0 +1,60 @@
+body{
+    padding: 5px;
+    background-color: #1B2430;
+    border: 2px solid #F10086;
+  
+  }
+  .popup_form{
+    width: 250px;
+    height: 400px;
+  }
+  .logo{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+  }
+  img{
+    width: 130px;
+    height: 100px;
+  }
+  .input{
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #F10086;
+    height: 27px;
+    width: 200px;
+    color: #F10086;
+    background-color: #1B2430;
+    border-radius: 5px ;
+  }
+  .input:hover{
+    border: 1px solid #ee67b1;
+  }
+  ::placeholder{
+    font-family:sans-serif;
+    padding: 2px;
+    opacity: 50%;
+  }
+
+  button{
+    border: 1px solid #F10086;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    margin-top: 6px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: #F10086;
+    cursor: pointer;
+  }
+  .msg{
+    color: #F10086;
+    font-size: large;
+    font-weight: 700;
+  }
+  .msg2{
+    color: #F10086;
+    font-size: large;
+    font-weight: 700;
+  }

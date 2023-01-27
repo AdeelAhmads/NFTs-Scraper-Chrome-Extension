@@ -1,0 +1,29 @@
+{
+    "name":"MagicEden NFTs Scraper",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "description":"Scrapes NFTs deatails from magicEden websites",
+    "author":"Adeel Ahmad",
+    "action":{
+        "default_popup":"popup.html",
+        "css":"style.css"
+        
+    },
+    "icons": {
+        "128": "logo.png"
+      },
+    "content_scripts":[{
+        "js":["script.js","papaparse.js"],
+        "matches":[
+            "https://magiceden.io/marketplace/*"
+        ]
+    }],
+
+    "permissions":[
+        "tabs"
+    ],
+    "host_permissions": [
+        "https://magiceden.io/marketplace/*"
+    ]
+  }
+
